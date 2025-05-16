@@ -29,15 +29,15 @@ deals.forEach(deal => {
   container.appendChild(card);
 });
 
-fetch("https://maker.ifttt.com/trigger/amazon_deals/with/key/iGbX3WWwdeDnvOh3Ws5RbdPlTF3hyv8Tz9udX5S0y5", {
+fetch("https://hooks.zapier.com/hooks/catch/123456/abcDEF/", {
   method: "POST",
   headers: {
-    "Content-Type": "application/json",
+    "Content-Type": "application/json"
   },
   body: JSON.stringify({
-    value1: "Walkie Talkies for Kids - Spider Design",
-    value2: "$23",
-    value3: "$35",
-    value4: "https://amzn.to/430nziX"
-  }),
+    product: "Walkie Talkies for Kids",
+    price: "$23",
+    realprice: "$35",
+    link: "https://amzn.to/430nziX"
+  })
 });
