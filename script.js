@@ -29,7 +29,7 @@ deals.forEach(deal => {
   container.appendChild(card);
 });
 
-fetch("https://hooks.zapier.com/hooks/catch/123456/abcDEF/", {
+fetch("https://hooks.zapier.com/hooks/catch/22959440/27i8phb/", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
