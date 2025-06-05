@@ -1,31 +1,241 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amazon Discount Deals</title>
-  <link rel="icon" href="https://logo.png" />
-  <img src="https://yourimageurl.com/logo.png" alt="Amazon Deals" style="max-width: 200px; margin-bottom: 10px;">
-<meta name="description" content="Best Amazon deals, updated daily. Save big on electronics, fashion, and more.">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Amazon Discount Deals</h1>
-    <p>Daily updated loot offers & price drops</p>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopEveryday - Your Online Shopping Hub</title>
+    <meta name="description" content="Shop Everyday - Best deals on electronics, fashion, and more" />
+    <meta name="author" content="ShopEveryday" />
+    <link rel="icon" href="./public/images/logo.webp"/>
+    <link rel="preload" as="image" href="./public/images/logo.webp"/>
+    <link rel="preload" as="image" href="./public/images/hero.webp" fetchpriority="high"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "ShopEveryday",
+  "url": "https://www.shopeveryday.com",
+  "logo": "https://www.shopeveryday.com/public/images/logo.webp",
+  "image": "https://www.shopeveryday.com/public/images/hero.webp",
+  "description": "ShopEveryday - Best deals on electronics, fashion, home essentials, and more.",
+  "sameAs": [
+    "https://whatsapp.com/channel/0029Vb6EL7XJ93wPCqou9w2k",
+    "https://t.me/ShoppingEvreyday"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Shopping Street",
+    "addressLocality": "Commerce City",
+    "postalCode": "12345",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-555-123-4567",
+    "contactType": "Customer Service",
+    "areaServed": "IN",
+    "availableLanguage": ["English", "Hindi"]
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "10:00",
+      "closes": "18:00"
+    }
+  ]
+}
+</script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="nav-brand">
+          <h1><i class="fas fa-shopping-bag"></i> ShopEveryday</h1>
+        </div>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#deals">Deals</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-icons">
+          <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search products...">
+          </div>
+        </div>
+      </div>
+    </header>
 
-  <main id="deals-container">
-    <!-- Deals will go here -->
-  
-  </main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h2>Best Deals Every Day</h2>
+        <p style="max-width:90vw">Discover amazing products at unbeatable prices</p>
+        <button class="cta-button" onclick="scrollToProducts()">Shop Now</button>
+      </div>
+    </section>
 
-  <footer>
-    <p>Join our channels for more deals:</p>
-    <a href="https://t.me/yourchannel" target="_blank">Telegram</a> |
-    <a href="https://wa.me/yourwhatsapplink" target="_blank">WhatsApp</a>
-  </footer>
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+      <div class="container">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn active" onclick="filterProducts('all')">All</button>
+          <button class="filter-btn" onclick="filterProducts('electronics')">Electronics</button>
+          <button class="filter-btn" onclick="filterProducts('fashion')">Fashion</button>
+          <button class="filter-btn" onclick="filterProducts('kids')">kids</button>
+          <button class="filter-btn" onclick="filterProducts('home')">Home</button>
+        </div>
+        <div class="products-grid" id="productsGrid">
+          <!-- Products will be loaded here by JavaScript -->
+        </div>
+      </div>
+    </section>
 
-  <script src="script.js"></script>
-</body>
+    <!-- Deals Section -->
+    <section class="deals-section" id="deals">
+      <div class="container">
+        <h2 class="section-title">Today's Best Deals</h2>
+        <div class="deals-grid">
+          <div class="deal-card">
+            <div class="deal-badge">LIMITED TIME</div>
+            <h3>Electronics Sale</h3>
+            <p>Up to 50% off on all electronic items</p>
+            <div class="deal-timer">
+              <span>Ends in: 24:00:00</span>
+            </div>
+            <button class="deal-btn" onclick="scrollToProducts()">Shop Electronics</button>
+          </div>
+          <div class="deal-card">
+            <div class="deal-badge">FLASH SALE</div>
+            <h3>Fashion Week</h3>
+            <p>Buy 2 Get 1 Free on all fashion items</p>
+            <div class="deal-timer">
+              <span>Ends in: 12:30:45</span>
+            </div>
+            <button class="deal-btn" onclick="scrollToProducts()">Shop Fashion</button>
+          </div>
+          <div class="deal-card">
+            <div class="deal-badge">SPECIAL OFFER</div>
+            <h3>Home Essentials</h3>
+            <p>Free shipping on orders over $50</p>
+            <div class="deal-timer">
+              <span>Ends in: 48:15:30</span>
+            </div>
+            <button class="deal-btn" onclick="scrollToProducts()">Shop Home</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Our Address</h4>
+                <p>123 Shopping Street<br>Commerce City, CC 12345</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone Number</h4>
+                <p>(555) 123-4567</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email Address</h4>
+                <p>info@shopeveryday.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Business Hours</h4>
+                <p>Mon - Fri: 9:00 AM - 8:00 PM<br>Sat - Sun: 10:00 AM - 6:00 PM</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>Send us a Message</h3>
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>ShopEveryday</h3>
+            <p>Your trusted online shopping destination</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#deals">Deals</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p style="display:flex; flex-wrap:wrap">Email: info@shopeveryday.com</p>
+            <p>Phone: (555) 123-4567</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 ShopEveryday. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
