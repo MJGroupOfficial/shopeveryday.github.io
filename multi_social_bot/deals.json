@@ -1,5 +1,6 @@
 [
   {
+    "id":"1",
     "title": "APES Fusion Style Wireless Headphone",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/electronics/product1.webp",
     "originalPrice": "6,999",
@@ -8,6 +9,7 @@
     "buyLink": "https://amzn.to/3ZgcHeH"
   },
   {
+    "id":"2",
     "title": "Safari Pentagon Set of 3 (Cabin + Medium + Large) Trolley Bags",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/home/product1.webp",
     "originalPrice": "30,355",
@@ -16,6 +18,7 @@
     "buyLink": "https://amzn.to/43siqAu"
   },
   {
+    "id":"3",
     "title": "Matrix Watch For Man & Women",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/electronics/product2.webp",
     "originalPrice": "2,499",
@@ -24,6 +27,7 @@
     "buyLink": "https://amzn.to/3HpRXuO"
   },
   {
+    "id":"4",
     "title": "Meta Wall Clock",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/home/product3.webp",
     "originalPrice": "1,999",
@@ -32,6 +36,7 @@
     "buyLink": "https://amzn.to/3HFDESQ"
   },
   {
+    "id":"5",
     "title": "Waterproof LED Watch",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/electronics/product3.webp",
     "originalPrice": "6,999",
@@ -40,6 +45,7 @@
     "buyLink": "https://amzn.to/3HmPGAJ"
   },
   {
+    "id":"6",
     "title": "Water Bottle With Your Name",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/home/product2.webp",
     "originalPrice": "999",
@@ -48,6 +54,7 @@
     "buyLink": "https://amzn.to/4kUhx9S"
   },
   {
+    "id":"7",
     "title": "Frantic Cute Backpack",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/kids/product3.webp",
     "originalPrice": "749",
@@ -56,6 +63,7 @@
     "buyLink": "https://amzn.to/45aPChk"
   },
   {
+    "id":"8",
     "title": "Running Shoes",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/fashion/product2.webp",
     "originalPrice": "2,499",
@@ -64,6 +72,7 @@
     "buyLink": "https://amzn.to/4mOau3Y"
   },
   {
+    "id":"9",
     "title": "Keekos Scooter for Kids with LED Light Up Wheels",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/kids/product2.webp",
     "originalPrice": "14,070",
@@ -72,6 +81,7 @@
     "buyLink": "https://amzn.to/43Ssf9V"
   },
   {
+    "id":"10",
     "title": "BRUTON Sports Shoes",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/fashion/product3.webp",
     "originalPrice": "2,499",
@@ -80,6 +90,7 @@
     "buyLink": "https://amzn.to/3Hq787j"
   },
   {
+    "id":"11",
     "title": "3 Cute Mini Bags",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/kids/product4.webp",
     "originalPrice": "1,499",
@@ -88,6 +99,7 @@
     "buyLink": "https://amzn.to/4dMeNsy"
   },
   {
+    "id":"12",
     "title": "Mini Dress",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/fashion/product1.webp",
     "originalPrice": "1,999",
@@ -96,6 +108,7 @@
     "buyLink": "https://amzn.to/43sRpwP"
   },
   {
+    "id":"13",
     "title": "Lifelong Foldable Kids Kick Scooter",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/kids/product1.webp",
     "originalPrice": "4,499",
@@ -104,6 +117,7 @@
     "buyLink": "https://amzn.to/459zCfq"
   },
   {
+    "id":"14",
     "title": "Crosscut Furniture Wooden Floor Lamp",
     "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/electronics/product4.webp",
     "originalPrice": "8,990",

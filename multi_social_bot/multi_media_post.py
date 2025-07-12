@@ -158,7 +158,7 @@ def post_instagram(deal, msg):
         print("❌ Instagram error:", e)
 
 # === Main Posting Loop ===
-start_from_id = 1
+start_from_id = 2
 
 for deal in deals:
     try:
@@ -175,7 +175,7 @@ for deal in deals:
         post_instagram(deal, fb_ig_msg)
 
         print("✅ All posted for:", deal["title"])
-        time.sleep(360)
+        time.sleep(18000)
 
     except Exception as e:
         print("❌ Error posting deal:", deal.get("title"), "-", e)
