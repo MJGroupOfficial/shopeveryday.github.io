@@ -8,9 +8,19 @@ from twilio.rest import Client
 
 load_dotenv()
 
+# === Load deals ===
 with open("deals2.json") as f:
     deals = json.load(f)
 
+# === Load posted_ids ===
+POSTED_FILE = "posted_ids.json"
+if os.path.exists(POSTED_FILE):
+    with open(POSTED_FILE) as f:
+        posted_ids = json.load(f)
+else:
+    posted_ids = []
+
+# === Config ===
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TELEGRAM_CHANNEL = os.getenv("TELEGRAM_CHANNEL")
 TWILIO_SID = os.getenv("TWILIO_SID")
@@ -22,6 +32,7 @@ FB_ACCESS_TOKEN = os.getenv("FB_ACCESS_TOKEN")
 IG_USER_ID = os.getenv("IG_USER_ID")
 IG_ACCESS_TOKEN = os.getenv("IG_ACCESS_TOKEN")
 
+# === WhatsApp client ===
 twilio_client = Client(TWILIO_SID, TWILIO_AUTH)
 
 
@@ -52,28 +63,22 @@ def format_msg(deal, platform):
 def post_telegram(deal, msg):
     image_url = deal.get("image")
     try:
-        # Download the webp image
         img_response = requests.get(image_url)
         img_data = img_response.content
-
-        # Upload to Telegram using file upload
         files = {'photo': ('image.webp', img_data)}
         data = {
             "chat_id": TELEGRAM_CHANNEL,
             "caption": msg
         }
-
         res = requests.post(
             f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto",
             data=data,
             files=files
         )
-
         if res.status_code == 200:
             print("✅ Telegram:", deal["title"])
         else:
             print("❌ Telegram failed:", res.text)
-
     except Exception as e:
         print("❌ Telegram error:", e)
 
@@ -94,7 +99,6 @@ def post_facebook(deal, msg):
     try:
         media_urls = deal.get("images") if "images" in deal else [deal.get("image")]
         media_ids = []
-
         for url in media_urls:
             data = {
                 "url": url,
@@ -106,28 +110,23 @@ def post_facebook(deal, msg):
                 media_ids.append({"media_fbid": r["id"]})
             else:
                 print("❌ Facebook image upload failed:", r)
-
         if not media_ids:
             print("❌ Facebook: No media to post.")
             return
-
         post_data = {"message": msg, "access_token": FB_ACCESS_TOKEN}
         for idx, media in enumerate(media_ids):
             post_data[f"attached_media[{idx}]"] = json.dumps(media)
-
         res = requests.post(f"https://graph.facebook.com/{FB_PAGE_ID}/feed", data=post_data)
         if res.status_code == 200:
             print("✅ Facebook post created:", deal["title"])
         else:
             print("❌ Facebook post failed:", res.text)
-
     except Exception as e:
         print("❌ Facebook error:", e)
 
 
 def post_instagram(deal, msg):
     media_ids = []
-
     if deal.get("image"):
         r = requests.post(
             f"https://graph.facebook.com/v19.0/{IG_USER_ID}/media",
@@ -141,7 +140,6 @@ def post_instagram(deal, msg):
             media_ids.append(r["id"])
         else:
             print("❌ Instagram main image error:", r)
-
     if deal.get("video"):
         r = requests.post(
             f"https://graph.facebook.com/v19.0/{IG_USER_ID}/media",
@@ -156,7 +154,6 @@ def post_instagram(deal, msg):
             media_ids.append(r["id"])
         else:
             print("❌ Instagram video error:", r)
-
     for img in deal.get("images", []):
         r = requests.post(
             f"https://graph.facebook.com/v19.0/{IG_USER_ID}/media",
@@ -169,7 +166,6 @@ def post_instagram(deal, msg):
             media_ids.append(r["id"])
         else:
             print("❌ Instagram extra image error:", r)
-
     if media_ids:
         carousel_req = requests.post(
             f"https://graph.facebook.com/v19.0/{IG_USER_ID}/media",
@@ -180,7 +176,6 @@ def post_instagram(deal, msg):
                 "access_token": IG_ACCESS_TOKEN
             }
         ).json()
-
         if "id" in carousel_req:
             creation_id = carousel_req["id"]
             publish = requests.post(
@@ -190,7 +185,6 @@ def post_instagram(deal, msg):
                     "access_token": IG_ACCESS_TOKEN
                 }
             ).json()
-
             if "id" in publish:
                 print(f"✅ Instagram posted: {deal['title']}")
             else:
@@ -202,17 +196,18 @@ def post_instagram(deal, msg):
 
 
 # === Main Loop ===
-start_from_id = 1
-
 for deal in deals:
+    if deal["id"] in posted_ids:
+        print(f"⏭️ Skipping already posted ID {deal['id']}: {deal['title']}")
+        continue
+
     while True:
         now = datetime.datetime.now()
         if 9 <= now.hour < 23:
             break
-        print("⏸️ Sleeping... Outside of posting hours (9AM - 9PM). Waiting 10 minutes...")
-        time.sleep(120)
+        print("⏸️ Sleeping... Outside of posting hours (9AM - 11PM). Waiting 10 minutes...")
+        time.sleep(600)
 
-    media_url = deal.get("video") or deal.get("image")
     telegram_msg = format_msg(deal, "telegram")
     whatsapp_msg = format_msg(deal, "whatsapp")
     fb_ig_msg = format_msg(deal, "other")
@@ -221,6 +216,10 @@ for deal in deals:
     post_whatsapp(whatsapp_msg)
     post_facebook(deal, fb_ig_msg)
     post_instagram(deal, fb_ig_msg)
+
+    posted_ids.append(deal["id"])
+    with open(POSTED_FILE, "w") as f:
+        json.dump(posted_ids, f, indent=2)
 
     print("✅ All posted for:", deal["title"])
     time.sleep(900)

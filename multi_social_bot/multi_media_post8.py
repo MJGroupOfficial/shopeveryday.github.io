@@ -6,11 +6,22 @@ import os
 from dotenv import load_dotenv
 from twilio.rest import Client
 
+# === Load environment ===
 load_dotenv()
 
+# === Load deals ===
 with open("deals2.json") as f:
     deals = json.load(f)
 
+# === Load or initialize posted IDs ===
+POSTED_FILE = "posted_ids.json"
+if os.path.exists(POSTED_FILE):
+    with open(POSTED_FILE) as f:
+        posted_ids = json.load(f)
+else:
+    posted_ids = []
+
+# === Config ===
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TELEGRAM_CHANNEL = os.getenv("TELEGRAM_CHANNEL")
 TWILIO_SID = os.getenv("TWILIO_SID")
@@ -24,7 +35,17 @@ IG_ACCESS_TOKEN = os.getenv("IG_ACCESS_TOKEN")
 
 twilio_client = Client(TWILIO_SID, TWILIO_AUTH)
 
+# === Hashtag helper ===
+def get_hashtags(platform):
+    if platform == "facebook":
+        return "#ShopSmart #SaveBig #DealsOfTheDay #OnlineShopping #MustBuy"
+    elif platform == "telegram":
+        return "#DealsChannel #HotDiscounts #TelegramDeals #SaveNow"
+    elif platform == "instagram":
+        return "#SmartShopping #DealZone #OfferOfTheDay #InstaFinds #ReelDeals"
+    return ""
 
+# === Format message ===
 def format_msg(deal, platform):
     try:
         original = int(deal["originalPrice"].replace(",", ""))
@@ -48,36 +69,27 @@ def format_msg(deal, platform):
     else:
         return base + "\n\n📢 Telegram: https://t.me/ShoppingEvreyday\n📱 WhatsApp: https://whatsapp.com/channel/0029Vb60MS8ADTOJrgbn6z3D"
 
-
+# === Telegram post ===
 def post_telegram(deal, msg):
     image_url = deal.get("image")
     try:
-        # Download the webp image
         img_response = requests.get(image_url)
         img_data = img_response.content
-
-        # Upload to Telegram using file upload
         files = {'photo': ('image.webp', img_data)}
-        data = {
-            "chat_id": TELEGRAM_CHANNEL,
-            "caption": msg
-        }
-
+        data = {"chat_id": TELEGRAM_CHANNEL, "caption": msg}
         res = requests.post(
             f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto",
             data=data,
             files=files
         )
-
         if res.status_code == 200:
             print("✅ Telegram:", deal["title"])
         else:
             print("❌ Telegram failed:", res.text)
-
     except Exception as e:
         print("❌ Telegram error:", e)
 
-
+# === WhatsApp post ===
 def post_whatsapp(msg):
     try:
         message = twilio_client.messages.create(
@@ -89,7 +101,7 @@ def post_whatsapp(msg):
     except Exception as e:
         print("❌ WhatsApp failed:", e)
 
-
+# === Facebook post ===
 def post_facebook(deal, msg):
     try:
         media_urls = deal.get("images") if "images" in deal else [deal.get("image")]
@@ -124,7 +136,7 @@ def post_facebook(deal, msg):
     except Exception as e:
         print("❌ Facebook error:", e)
 
-
+# === Instagram post ===
 def post_instagram(deal, msg):
     media_ids = []
 
@@ -200,27 +212,32 @@ def post_instagram(deal, msg):
     else:
         print("❌ Instagram: No media to post")
 
-
-# === Main Loop ===
-start_from_id = 1
-
+# === Main Posting Loop ===
 for deal in deals:
+    if deal["id"] in posted_ids:
+        print(f"⏭️ Skipping already posted ID {deal['id']}: {deal['title']}")
+        continue
+
     while True:
         now = datetime.datetime.now()
         if 9 <= now.hour < 23:
             break
-        print("⏸️ Sleeping... Outside of posting hours (9AM - 9PM). Waiting 10 minutes...")
-        time.sleep(120)
+        print("⏸️ Waiting until allowed time (9AM–11PM)... Sleeping 10 minutes")
+        time.sleep(600)
 
-    media_url = deal.get("video") or deal.get("image")
-    telegram_msg = format_msg(deal, "telegram")
+    telegram_msg = format_msg(deal, "telegram") + "\n\n" + get_hashtags("telegram")
     whatsapp_msg = format_msg(deal, "whatsapp")
-    fb_ig_msg = format_msg(deal, "other")
+    fb_msg = format_msg(deal, "other") + "\n\n" + get_hashtags("facebook")
+    ig_msg = format_msg(deal, "other") + "\n\n" + get_hashtags("instagram")
 
     post_telegram(deal, telegram_msg)
     post_whatsapp(whatsapp_msg)
-    post_facebook(deal, fb_ig_msg)
-    post_instagram(deal, fb_ig_msg)
+    post_facebook(deal, fb_msg)
+    post_instagram(deal, ig_msg)
+
+    posted_ids.append(deal["id"])
+    with open(POSTED_FILE, "w") as f:
+        json.dump(posted_ids, f, indent=2)
 
     print("✅ All posted for:", deal["title"])
     time.sleep(900)
