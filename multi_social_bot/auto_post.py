@@ -174,7 +174,7 @@ def post_instagram(deal):
                 ).json()
                 if status.get("status_code") == "FINISHED":
                     break
-                time.sleep(3)
+                time.sleep(8)
             else:
                 print("❌ Timeout: REEL not ready.")
                 return
@@ -278,8 +278,8 @@ def instagram_job():
 
 # === Schedule Posts ===
 
-schedule.every().day.at("10:30").do(facebook_job)
-schedule.every().day.at("11:30").do(telegram_job)
+schedule.every().day.at("11:00").do(facebook_job)
+schedule.every().day.at("16:30").do(telegram_job)
 schedule.every().day.at("17:30").do(instagram_job)
 
 print("📅 Scheduler started. Waiting for post times...")

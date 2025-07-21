@@ -2,17 +2,18 @@
     {
     "id":"1",
     "title": "🛍️ Noise Colorfit icon 2 1.8, Display With Bluttoth Calling, Ai voice Assistant Smartwatch",
+    "catagory": "electronic",
     "images":[
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-1/image1.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-1/image2.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-1/image3.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-1/image4.webp",
-     "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-1/image5.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-1/image6.webp",
-        "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-1/image7.webp",
-          "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-1/image8.webp"
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-1/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-1/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-1/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-1/image4.webp",
+     "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-1/image5.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-1/image6.webp",
+        "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-1/image7.webp",
+         "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-1/image8.webp"
       ],
-    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/electronics/product5.webp",
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product5.webp",
     "originalPrice": "5,999",
     "currentPrice": "1,399",
     "discount": 76,
@@ -21,15 +22,16 @@
     {
     "id":"2",
     "title": "Edyell Bluetooth Headphone, Noise Cancelling, 100Hrs Playtime, 4 Mic, 13mm Driver, Type-C Bluetooth Headset (Black, True Wireless)",
+    "catagory":"electronic",
     "images":[
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-2/image1.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-2/image2.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-2/image3.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-2/image4.webp",
-     "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-2/image5.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-2/image6.webp"
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-2/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-2/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-2/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-2/image4.webp",
+     "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-2/image5.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-2/image6.webp"
       ],
-    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/electronics/product6.webp",
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product6.webp",
     "originalPrice": "5,999",
     "currentPrice": "1,423",
     "discount": 76,
@@ -38,6 +40,7 @@
       {
     "id":"3",
     "title": "Deklook Women Pleated Pink Midi/Calf Length Dress",
+    "catagory":"fashion",
     "images":[
       "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/fashion/deals2-id-3/image1.webp",
       "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/fashion/deals2-id-3/image2.webp",
@@ -52,21 +55,19 @@
     "buyLink": "https://fktr.in/ss8mm1u"
   },
       {
-    "id":"3",
+    "id":"4",
     "title": "Boult Y1 with Zen ENC Mic, 50H Battery, Fast Charging, Pro+ Calling, Knurled Design Bluetooth Headset (White, True Wireless)",
+    "catagory":"electronic",
     "images":[
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-4/image1.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-4/image2.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-4/image3.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-4/image4.webp",
-     "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-4/image5.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-4/image6.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-4/image7.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-4/image8.webp",
-     "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-4/image9.webp",
-      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/electronics/deals2-id-4/image10.webp"
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-4/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-4/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-4/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-4/image4.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-4/image6.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-4/image8.webp",
+     "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-4/image9.webp"
       ],
-    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/electronics/product7.webp",
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product7.webp",
     "originalPrice": "5,499",
     "currentPrice": "699",
     "discount": 87,
@@ -75,6 +76,7 @@
     {
     "id":"5",
     "title": "Men Printed Round Neck Cotton Blend Beige T-Shirt",
+    "catagory":"fashion",
     "images":[
       "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/fashion/deals2-id-5/image1.webp",
       "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/fashion/deals2-id-5/image2.webp"
@@ -88,6 +90,7 @@
       {
     "id":"6",
     "title": "Mast & Harbour, Men Striped Casual Shirt",
+    "catagory":"fashion",
     "images":[
       "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/fashion/deals2-id-6/image1.webp",
       "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/fashion/deals2-id-6/image2.webp",
@@ -100,5 +103,389 @@
     "currentPrice": "669",
     "discount": 65,
     "buyLink": "https://myntr.it/Jzj37Yq"
+  },
+     {
+    "id":"7",
+    "title": "JK Super Drive Professional with 750Watts, 13mm Impact Drill, Power & Hand Tool Kit (98 Tools)",
+    "catagory":"electronic",
+    "images":[
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-7/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-7/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-7/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-7/image4.webp"
+      ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product8.webp",
+    "originalPrice": "6,500",
+    "currentPrice": "2,221",
+    "discount": 65,
+    "buyLink": "https://fktr.in/NuxrFgl"
+  },
+  {
+    "id":"8",
+    "title": "Boult Astra with Quad Mic ENC, 48Hrs Battery, Low Latency Gaming, Made in India, 5.3v Bluetooth Headset (Black Gloss, True Wireless)",
+    "catagory":"electronic",
+    "images":[
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-8/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-8/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-8/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-8/image4.webp"
+      ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product9.webp",
+    "originalPrice": "3,499",
+    "currentPrice": "1,299",
+    "discount": 62,
+    "buyLink": "https://fktr.in/vTeuaZr"
+  },
+  {
+    "id": "9",
+    "title": "Refulgix Crystal Lamp, 16 Color Changing Rose, USB Rechargeable Table Lamp (20 cm, Diamond Crystal Lamp)          🔥available only two days ⏰",
+    "catagory":"home",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-9/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-9/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-9/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-9/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product9.webp",
+    "originalPrice": "1,999",
+    "currentPrice": "269",
+    "discount": 86,
+    "buyLink": "https://fktr.in/1Y9tawf"
+  },
+  {
+    "id": "10",
+    "title": "LG 242 L 3 Star Smart Inverter Frost-Free Double Door Refrigerator (GL-I292RPZX, Shiny Steel, Door Cooling+)",
+    "catagory":"home",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-10/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-10/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-10/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-10/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product10.webp",
+    "originalPrice": "37,090",
+    "currentPrice": "24,990",
+    "discount": 33,
+    "buyLink": "https://amzn.to/40V6PrW"
+  },
+  {
+    "id": "11",
+    "title": "BAE 4 layer strong PVC pipe shoe stand Plastic Collapsible Shoe Stand (Black, White, Multicolor, 4 Shelves, DIY (Do-It-Yourself))",
+    "catagory":"home",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-11/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-11/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-11/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-11/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product11.webp",
+    "originalPrice": "961",
+    "currentPrice": "239",
+    "discount": 75,
+    "buyLink": "https://fktr.in/PNtGK3C"
+  },
+  {
+    "id": "12",
+    "title": "leax Analog 30 cm X 30 cm Wall Clock (Brown, Without Glass, Standard)",
+    "catagory":"home",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-12/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-12/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-12/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-12/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product12.webp",
+    "originalPrice": "999",
+    "currentPrice": "295",
+    "discount": 70,
+    "buyLink": "https://fktr.in/A316pPU"
+  },
+  {
+    "id": "13",
+    "title": "Flipkart Perfect Homes Omega Jute Fabric 3 + 1 + 1 Sofa Set (Dark Grey, DIY (Do-It-Yourself))",
+    "catagory":"home",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-13/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-13/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-13/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-13/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product13.webp",
+    "originalPrice": "49,999",
+    "currentPrice": "14,849",
+    "discount": 70,
+    "buyLink": "https://fktr.in/gWpw2Ly"
+  },
+   {
+    "id": "14",
+    "title": "MarQ by Flipkart 60.96 cm (24 inch) Full HD IPS Panel Inbuilt Speakers Monitor (24FHDMEQNNXO) (Adaptive Sync, Response Time: 1 ms, 100 Hz",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-14/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-14/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-14/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-14/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product14.webp",
+    "originalPrice": "17,200",
+    "currentPrice": "5,699",
+    "discount": 66,
+    "buyLink": "https://fktr.in/bXb5zNn"
+  },
+  {
+    "id": "15",
+    "title": "boAt Airdopes 141 ANC with 32 dB Active Noise Cancellation",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-15/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-15/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-15/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-15/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product15.webp",
+    "originalPrice": "4,990",
+    "currentPrice": "1,699",
+    "discount": 65,
+    "buyLink": "https://fktr.in/7jS2jS8"
+  },
+  {
+    "id": "16",
+    "title": "APPLE AirPods Pro (2nd Gen) with MagSafe Case (USB-C)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-16/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-16/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-16/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-16/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product16.webp",
+    "originalPrice": "26,900",
+    "currentPrice": "20,999",
+    "discount": 21,
+    "buyLink": "https://fktr.in/2N4F4M4"
+  },
+  {
+    "id": "17",
+    "title": "SAMSUNG 7 kg 5 Star, Digital Inverter, Hygiene Steam Fully Automatic Front Load Washing Machine",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-17/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-17/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-17/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-17/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product17.webp",
+    "originalPrice": "41,500",
+    "currentPrice": "29,490",
+    "discount": 28,
+    "buyLink": "https://fktr.in/qW7R7R8"
+  },
+  {
+    "id": "18",
+    "title": "APPLE iPhone 15 Pro Max (Blue Titanium, 256 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-18/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-18/image2.webp",
+      "https://mjgroupofficial.github.io/shopeeveryday.github.io/public/images/social_media_carousel_images/deals2-id-18/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-18/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product18.webp",
+    "originalPrice": "1,59,900",
+    "currentPrice": "1,44,999",
+    "discount": 9,
+    "buyLink": "https://fktr.in/tT9R9S0"
+  },
+  {
+    "id": "19",
+    "title": "SAMSUNG Galaxy S24 Ultra 5G (Titanium Gray, 256 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-19/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-19/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-19/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-19/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product19.webp",
+    "originalPrice": "1,49,999",
+    "currentPrice": "1,29,999",
+    "discount": 13,
+    "buyLink": "https://fktr.in/wJ1K1L2"
+  },
+  {
+    "id": "20",
+    "title": "Google Pixel 8 (Hazel, 128 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-20/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-20/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-20/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-20/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product20.webp",
+    "originalPrice": "75,999",
+    "currentPrice": "62,999",
+    "discount": 17,
+    "buyLink": "https://fktr.in/xY3Z3A4"
+  },
+  {
+    "id": "21",
+    "title": "Nothing Phone (2) (Dark Grey, 256 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-21/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-21/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-21/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-21/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product21.webp",
+    "originalPrice": "49,999",
+    "currentPrice": "39,999",
+    "discount": 20,
+    "buyLink": "https://fktr.in/pQ5R5S6"
+  },
+  {
+    "id": "22",
+    "title": "Motorola Edge 40 Neo (Caneel Bay, 128 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-22/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-22/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-22/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-22/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product22.webp",
+    "originalPrice": "29,999",
+    "currentPrice": "22,999",
+    "discount": 23,
+    "buyLink": "https://fktr.in/oP7Q7R8"
+  },
+  {
+    "id": "23",
+    "title": "POCO M6 Pro 5G (Power Black, 128 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-23/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-23/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-23/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-23/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product23.webp",
+    "originalPrice": "15,999",
+    "currentPrice": "10,999",
+    "discount": 31,
+    "buyLink": "https://fktr.in/aS9T9U0"
+  },
+  {
+    "id": "24",
+    "title": "OnePlus Nord CE 3 Lite 5G (Chromatic Gray, 256 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-24/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-24/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-24/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-24/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product24.webp",
+    "originalPrice": "21,999",
+    "currentPrice": "18,999",
+    "discount": 13,
+    "buyLink": "https://fktr.in/bB1C1D2"
+  },
+  {
+    "id": "25",
+    "title": "realme 12 Pro+ 5G (Submarine Blue, 256 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-25/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-25/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-25/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-25/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product25.webp",
+    "originalPrice": "33,999",
+    "currentPrice": "29,999",
+    "discount": 11,
+    "buyLink": "https://fktr.in/cC3D3E4"
+  },
+  {
+    "id": "26",
+    "title": "vivo T2 Pro 5G (Dune Gold, 256 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-26/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-26/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-26/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-26/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product26.webp",
+    "originalPrice": "26,999",
+    "currentPrice": "24,999",
+    "discount": 7,
+    "buyLink": "https://fktr.in/dE5F5G6"
+  },
+  {
+    "id": "27",
+    "title": "Infinix Smart 8 (Timber Black, 64 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-27/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-27/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-27/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-27/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product27.webp",
+    "originalPrice": "8,999",
+    "currentPrice": "7,499",
+    "discount": 16,
+    "buyLink": "https://fktr.in/fG7H7I8"
+  },
+  {
+    "id": "28",
+    "title": "LAVA Blaze 2 (Glass Black, 64 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-28/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-28/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-28/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-28/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product28.webp",
+    "originalPrice": "10,499",
+    "currentPrice": "8,499",
+    "discount": 19,
+    "buyLink": "https://fktr.in/gI9J9K0"
+  },
+  {
+    "id": "29",
+    "title": "POCO C65 (Matte Black, 128 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-29/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-29/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-29/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-29/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product29.webp",
+    "originalPrice": "10,999",
+    "currentPrice": "7,999",
+    "discount": 27,
+    "buyLink": "https://fktr.in/hK1L1M2"
+  },
+  {
+    "id": "30",
+    "title": "SAMSUNG Galaxy F14 5G (OMG Black, 128 GB)",
+    "catagory": "electronic",
+    "images": [
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-30/image1.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-30/image2.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-30/image3.webp",
+      "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/social_media_carousel_images/deals2-id-30/image4.webp"
+    ],
+    "image": "https://mjgroupofficial.github.io/shopeveryday.github.io/public/images/product-main-image/product30.webp",
+    "originalPrice": "18,499",
+    "currentPrice": "13,999",
+    "discount": 24,
+    "buyLink": "https://fktr.in/iM3N3O4"
   }
   ]
