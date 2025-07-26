@@ -278,9 +278,9 @@ def instagram_job():
 
 # === Schedule Posts ===
 
-schedule.every().day.at("11:00").do(facebook_job)
-schedule.every().day.at("16:30").do(telegram_job)
-schedule.every().day.at("17:30").do(instagram_job)
+schedule.every().day.at("10:30").do(facebook_job)
+schedule.every().day.at("12:30").do(telegram_job)
+#schedule.every().day.at("18:30").do(instagram_job)
 
 print("📅 Scheduler started. Waiting for post times...")
 

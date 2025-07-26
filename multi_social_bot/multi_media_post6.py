@@ -202,7 +202,7 @@ def post_instagram(deal, msg):
 
 
 # === Main Loop ===
-start_from_id = 1
+start_from_id = 7
 
 for deal in deals:
     while True:
@@ -217,9 +217,9 @@ for deal in deals:
     whatsapp_msg = format_msg(deal, "whatsapp")
     fb_ig_msg = format_msg(deal, "other")
 
-    post_telegram(deal, telegram_msg)
-    post_whatsapp(whatsapp_msg)
-    post_facebook(deal, fb_ig_msg)
+  #  post_telegram(deal, telegram_msg)
+  #  post_whatsapp(whatsapp_msg)
+   # post_facebook(deal, fb_ig_msg)
     post_instagram(deal, fb_ig_msg)
 
     print("✅ All posted for:", deal["title"])
